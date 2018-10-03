@@ -24,17 +24,9 @@ out/
 *.Makefile
 *.target.mk
 
-# Bazel related files
-bazel-*
-.bazelrc
-
-.idea
-
-# Eclipse
-.project
-.classpath
-.settings/
-# Maven
-target/
-
 *~
+
+# binaries
+wmma
+vec_add
+
