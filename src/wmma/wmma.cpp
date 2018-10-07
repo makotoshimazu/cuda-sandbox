@@ -24,9 +24,9 @@ double GFLOPS(double ms, int m, int n, int k) {
 }
 
 int main() {
-  int M = 4096;
-  int N = 4096;
-  int K = 4096;
+  int M = 8192;
+  int N = 8192;
+  int K = 8192;
   double ms = wmma_run(M, N, K);
   printf("%3.1f ms\n", ms);
   printf("%6.1f GFLOPS\n", GFLOPS(ms, M, N, K));
